@@ -12,7 +12,8 @@ $skillsRoot = Join-Path $CodexHome "skills"
 
 $skills = @(
     @{ Name = "weekly-report"; Path = ".github/skills/weekly-report" },
-    @{ Name = "postgresql-sql"; Path = ".github/skills/postgresql-sql" }
+    @{ Name = "postgresql-sql"; Path = ".github/skills/postgresql-sql" },
+    @{ Name = "odps-sql"; Path = ".github/skills/odps-sql" }
 )
 
 if (-not (Test-Path -LiteralPath $installerScript)) {
